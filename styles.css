@@ -1,0 +1,67 @@
+img {
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+.kMenu.open {
+  width: 200px;
+}
+
+.kMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  background-color: yellow;
+  overflow: hidden;
+  transition: .8s;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+.kMenu li, .kMenu li a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: .3s;
+}
+
+.kMenu li a {
+  padding: 0;
+}
+
+.kMenu li:hover, .kMenu li a:hover {
+  color: #92928f;
+  cursor: pointer;
+}
+
+
+.red-border{
+  border: 5px solid red;
+}
+
+.blue-border{
+  border: 5px solid blue;
+}
+.green-border{
+  border: 5px solid green;
+}
+.orange-border{
+  border: 5px solid orange;
+}
+.purple-border{
+  border: 5px solid purple;
+}
+.home-border{
+  border: 5px solid pink;
+}
+
